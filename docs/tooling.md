@@ -116,6 +116,14 @@ The installed package includes `skills/marionette`. The skill routes to that app
 
 For a Codex project, copy the complete folder to `.agents/skills/marionette` in your application and invoke `$marionette`. Keep the scripts with the entrypoint. For other clients, use their documented skill location and invocation support. See [Codex skill installation](https://learn.chatgpt.com/docs/build-skills).
 
+Alternatively, install the public repository's skill into your application with the [skills CLI](https://skills.sh/docs/cli):
+
+```sh
+npx skills add marionettejs/marionette --skill marionette --agent codex
+```
+
+Replace `codex` with your supported agent, such as `claude-code` or `cursor`. This installs the skill and its lookup scripts; install Marionette separately. The command follows the repository's default branch. For an exact release, copy the skill from the matching installed npm package instead. The helper reads and verifies that application's installed documentation before returning a result.
+
 The `marionette` plugin is distributed through repository marketplaces, separately from the npm package. To use it, obtain a source checkout matching the installed package version and its manifest's `sourceRevision`; use the corresponding working checkout for a dirty candidate. Otherwise, copy the skill delivered with the package. The plugin combines that checkout's skill with the hosted documentation MCP connection. In a Codex client supporting local marketplaces, add the matching checkout with `codex plugin marketplace add /absolute/path/to/checkout`, then install Marionette from that marketplace using the client's plugin interface. See [OpenAI plugin installation](https://developers.openai.com/plugins/build/plugins). The repository includes Claude Code and Cursor marketplace manifests; their client installation and activation must be verified in those clients.
 
 Choose the copied skill for local lookup without MCP. A plugin-capable client can use the bundled skill and hosted connection together, but installation does not make the hosted corpus match your package. Follow the hosted identity check below.
