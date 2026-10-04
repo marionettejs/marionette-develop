@@ -16,7 +16,7 @@ assert.equal(examples('js').length, 2);
 assert.equal(examples('json').length, 1);
 assert.equal(examples('ts').length, 1);
 const commands = examples('sh');
-assert.equal(commands.length, 4);
+assert.equal(commands.length, 5);
 assert.equal(commands[0], 'npm install --ignore-scripts --save-dev --save-exact eslint@10.11.0 typescript@6.0.3');
 for (const [name, version] of [['eslint', '10.11.0'], ['typescript', '6.0.3']]) {
   assert.equal(JSON.parse(readFileSync(join(consumer, 'node_modules', name, 'package.json'))).version, version);
