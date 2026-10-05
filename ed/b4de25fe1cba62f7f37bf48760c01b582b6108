@@ -1,0 +1,18 @@
+docs/tooling.md
+  h_0f06c286dda36f 119-126
+plugins/marionette/.claude-plugin/plugin.json
+  h_0f06c286dda36f 7-8
+plugins/marionette/README.md
+  h_0f06c286dda36f 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "edb4de25fe1cba62f7f37bf48760c01b582b6108",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
