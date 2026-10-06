@@ -1,0 +1,31 @@
+docs/guides/framework-migration.md
+  h_0f06c286dda36f 1-278,283-290
+  h_0f06c286dda36f 279-282
+docs/agents.md
+  h_0f06c286dda36f 21
+docs/readme.md
+  h_0f06c286dda36f 20
+skills/marionette/SKILL.md
+  h_0f06c286dda36f 16
+test/docs/reference-examples.mjs
+  h_0f06c286dda36f 2,37,53
+plugins/marionette/skills/marionette/SKILL.md
+  h_0f06c286dda36f 16
+docs-site/navigation.json
+  h_0f06c286dda36f 146-151
+llms.txt
+  h_0f06c286dda36f 44
+test/docs/framework-migration-checks.mjs
+  h_0f06c286dda36f 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "51ebd1b4c15a9cbd7683f731a4b4221284454b30",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
