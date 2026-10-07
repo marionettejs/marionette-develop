@@ -499,7 +499,8 @@
       "destruction": "Once destruction begins, show/detach cannot acquire/release a new View; cleanup failures abort without retry. Successful final notification delivery is followed by outgoing and incoming event cleanup; synchronous exceptions abort the operation.",
       "diagnostics": [
         "MN0003",
-        "MN0004"
+        "MN0004",
+        "MN0005"
       ],
       "docs": [
         {

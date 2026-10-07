@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "authority": "authored TypeScript and explicit public behavioral evidence",
-  "semanticsSha256": "1f9261ae2380561f996d65086e85f28203afb8d396a942821c324bb182b5fb10",
+  "semanticsSha256": "c558c10348d258bbfdcc56e82d50405656b57581a1e864d1a2d60cdebce78ee2",
   "entrypoints": [
     {
       "name": "marionette",
