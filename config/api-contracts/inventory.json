@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "authority": "authored TypeScript and explicit public behavioral evidence",
-  "semanticsSha256": "797b2a98b8a84ff324c8a3cc07e4514d084d1cb8d460e1f2b61cfb10f542f583",
+  "semanticsSha256": "1f9261ae2380561f996d65086e85f28203afb8d396a942821c324bb182b5fb10",
   "entrypoints": [
     {
       "name": "marionette",
@@ -10482,7 +10482,7 @@
     "docs/api/mnobject.md": "89cfe4ac212de4ac5fd966cb427c1391749a2be623ccc9b6f16bb4c3497313bc",
     "docs/api/providers/data.md": "bfdc9fcac45390611b75d28d7cc12fd256325463355fd338abfc6be503844275",
     "docs/api/providers/dom.md": "7445ee9633d751c9220c9c725040383632f56d06f946f9a60181023ce42a3b8c",
-    "docs/api/region.md": "3771949da509be8d08ce03517df0721de425640efaef5a3423c0ffaea4de0925",
+    "docs/api/region.md": "ef0d045faa1351e38f35e5ccb2b3654f8930346e5f754e885b8fd63fded6429e",
     "docs/api/runtime.md": "d487aa88bcef315d46b14c231c8be9c682c7bf8037c9ffb80a63b5f831c2ad4c",
     "docs/api/shared/common.md": "8982228a2345240414e35ba4f0967e95530f5966fe1254efd9a09575706d5b6a",
     "docs/api/shared/events.md": "d32469eb9dab26b77b94615c8bc337fc360536dd3e0489e12ad1ebb086f685f0",
@@ -10538,6 +10538,7 @@
     "test/unit/provider-acceptance.spec.js": "9eb8795a222745b41ba2d76ae770dfa702e2f0f1ec8e17be8402be42c6166db9",
     "test/unit/radio-public.spec.js": "cc808f986107a14c0aefdfc3db3cac9b966154422d3527a6ee91e0a54d348ab9",
     "test/unit/region-lifecycle.spec.js": "1445b64c438a380f14bd490bb3f106ac0c3a73c0b8b2c744043e49288b71c66c",
+    "test/unit/region-missing-selector.spec.js": "214bf1911ddeeb7d06806f12a6973d84b7129110893282352cf0a972e44480c3",
     "test/unit/requests.spec.js": "244e5a9a9d5cfd135435f820af6edb73c1abfb13ed2c0b92799ee56673bf854a",
     "test/unit/runtime/event-delegator.spec.js": "6d75e90b91a4b1441fed3f0c909ac6a0e52634265cad0d1604a779ea8007c65b",
     "test/unit/state-owner.spec.js": "6f5455831330909831bf427ef431dc46bc431239b5d34fdb5ed05df79378437a",

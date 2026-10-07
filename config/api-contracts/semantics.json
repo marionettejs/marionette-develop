@@ -539,6 +539,18 @@
         {
           "file": "test/unit/destroy-listener-cleanup.spec.js",
           "title": "delivers final notifications and releases incoming and outgoing subscriptions"
+        },
+        {
+          "file": "test/unit/region-missing-selector.spec.js",
+          "title": "resolves a previously missing selector on a later explicit show"
+        },
+        {
+          "file": "test/unit/region-missing-selector.spec.js",
+          "title": "retains strict missing-target diagnostics after an allowed skip"
+        },
+        {
+          "file": "test/unit/region-missing-selector.spec.js",
+          "title": "rerenders and destroys a parent after its optional Region skips showing"
         }
       ],
       "events": [
