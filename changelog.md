@@ -1,5 +1,9 @@
 ### Unreleased
 
+* Make View, CollectionView, and Behavior entity-event delegation replace previous
+  bindings. Explicit undelegation is no longer required before rebinding changed
+  sources or declarations; destruction releases the current bindings.
+
 ### v5.0.0-rc.2
 
 > Rebuilt framework documentation, focused agent lookup and automatic listener cleanup.
