@@ -1,5 +1,8 @@
 ### Unreleased
 
+* Keep Regions usable after an allowed missing selector: later explicit operations
+  retry the original selector, including ordinary reset and destruction.
+
 ### v5.0.0-rc.2
 
 > Rebuilt framework documentation, focused agent lookup and automatic listener cleanup.

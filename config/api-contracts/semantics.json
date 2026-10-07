@@ -495,7 +495,7 @@
       "timing": "Synchronous; callback or adapter exceptions abort the operation without rollback or attempt-all cleanup.",
       "ownership": "show adopts a View; detach releases ownership without destroying it; empty/replacement destroy the current View.",
       "mutation": "show renders and inserts a View; detach removes it; replaceElement state is independent of attachment.",
-      "repetition": "Showing the current View does not render it or repeat show events. With no current View, live empty clears the resolved element contents without empty events; element validation still applies. Repeated destroy is a no-op, and empty/reset become no-ops after completed destruction.",
+      "repetition": "Showing the current View does not render it or repeat show events. With no current View, live empty clears the resolved element contents without empty events; element validation still applies. Repeated destroy is a no-op, and empty/reset become no-ops after completed destruction. Unresolved selectors are retried on later explicit element-dependent operations using the original element configuration and the current missing-element options.",
       "destruction": "Once destruction begins, show/detach cannot acquire/release a new View; cleanup failures abort without retry. Successful final notification delivery is followed by outgoing and incoming event cleanup; synchronous exceptions abort the operation.",
       "diagnostics": [
         "MN0003",
