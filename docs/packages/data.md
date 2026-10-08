@@ -119,7 +119,7 @@ const plainItems = items.toArray(); // Attribute objects, not Models.
 
 `add` ignores existing instances or non-null IDs. Construction and `reset` reject duplicate instances or non-null IDs with `TypeError`, before replacing membership. Keep IDs unique when updating Models: a later ID change does not enforce uniqueness; lookup then selects the first current matching member. ID equality follows Map/Set equality. Nullish IDs do not identify members.
 
-Batch related membership changes with `add([...])` or `remove([...])`. Each call that changes membership performs its collection bookkeeping once and emits one aggregate `update`, allowing CollectionView to reconcile the group in one pass instead of after every individual call. Per-Model `add`/`remove` events still fire for changed members. Empty, duplicate-only additions and unmatched removals emit no `update`.
+Batch related membership changes with `add([...])` or `remove([...])`. Each call that changes membership emits one aggregate `update`, so CollectionView reconciles once per call instead of once per item. Per-Model `add`/`remove` events still fire for changed members. Empty, duplicate-only additions and unmatched removals emit no `update`.
 
 `reset` is a whole-list replacement. With CollectionView it destroys and rebuilds child Views, including children whose Model instances remain. For retained items, update the existing Model with `set`, change membership with `add`/`remove`, and change order with `move`/`sort`. There is no `Collection.set` merge operation. See [CollectionView](../api/collection-view.md) for display filtering, ordering, and child ownership.
 

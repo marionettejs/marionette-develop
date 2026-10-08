@@ -27,7 +27,7 @@ Feature Application
 └── registered child Application → its own UI
 ```
 
-Each owner cleans up its children. A **host** is the surrounding UI or owner receiving a feature; the Application's **destination** is the specific Region used by `showView()`. A destination supplied as an existing Region is borrowed. Owning a root or registering a child Application does not itself show or start it. Models supplied to Views are borrowed data, not branches of this UI ownership tree.
+Each owner cleans up its children. For an embedded feature, its **host** is the surrounding UI or owner receiving it; the Application's **destination** is the specific Region used by `showView()`. A Behavior's **host** is the View or CollectionView it augments. A destination supplied as an existing Region is borrowed. Owning a root or registering a child Application does not itself show or start it. Models supplied to Views are borrowed data, not branches of this UI ownership tree.
 
 ## Prepare a feature, then activate its UI
 

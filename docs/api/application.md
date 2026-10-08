@@ -80,6 +80,7 @@ Stop is synchronous and cannot be superseded during cleanup. Start/restart durin
 
 ```text
 stopped → start() → prepareStart → active → onStart
+stopped → restart() → prepareStart → active → onStart (retained destination)
 active  → restart() → prepareStart → onStart → active
                        │
                        └── preparation rejects → existing active UI retained

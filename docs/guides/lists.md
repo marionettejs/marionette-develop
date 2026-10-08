@@ -74,11 +74,11 @@ The notes fields are temporary DOM input. Sorting moves the existing rows; filte
 | --- | --- | --- |
 | Add or remove a member | `items.add(...)` / `items.remove(...)` | Creates/destroys affected rows and retains surviving rows. Removing membership does not destroy the Model. |
 | Change a displayed attribute | `model.set(...)` | This example's `modelEvents` renders that row. |
-| Change an attribute used by sorting/filtering | Then call `catalog.list.sort()` / `filter()` | Recomputes presentation; a native Model change does not automatically rerun the parent criteria. |
+| Change an attribute used by sorting/filtering | Then call `catalog.list.sort()` / `filter()` | Recomputes presentation; an `@mnjs/data` Model change does not automatically rerun the parent criteria. |
 | Show all rows | `catalog.list.removeFilter()` | Restores retained hidden rows. |
 | Replace the membership snapshot | `items.reset(...)` | Destroys and rebuilds rows, including rows for retained Models. |
 
-For a group of additions or removals, use `items.add([...])` or `items.remove([...])` rather than calling the method in a loop. When membership changes, the native Collection emits one aggregate update per call, avoiding repeated collection bookkeeping and list reconciliation while retaining surviving rows. Use `reset` for a whole replacement snapshot; its row destruction makes it unsuitable for preserving input or focus.
+For a group of additions or removals, use `items.add([...])` or `items.remove([...])` rather than calling the method in a loop. When membership changes, the `@mnjs/data` Collection emits one aggregate update per call, so CollectionView reconciles once per call instead of once per item while retaining surviving rows. Use `reset` for a whole replacement snapshot; its row destruction makes it unsuitable for preserving input or focus.
 
 Avoid full `list.render()` to apply a filter or sort: it rebuilds managed rows. Rendering CatalogView again also destroys its Region children; this example deliberately resets its local controls when rebuilding the list. If notes must survive those operations or navigation, put the draft in an appropriately owned data source.
 
