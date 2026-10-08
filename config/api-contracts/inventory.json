@@ -12523,7 +12523,7 @@
     "test/unit/data-api-integration.spec.js": "50086bdabcadc63a4f91f395dd42ef0d9713d5ac687ae4976d19fffd71a908c7",
     "test/unit/data-api-redux.spec.js": "0d0cb3a11ecfaeacbea2ea5e30c8bdda73993aa7be2b1f45eb09fb7b548d7940",
     "test/unit/data-package/api-integration.spec.js": "ec12b3be7cc046a020d5d2b6f2f7ee7dfdb3b986da13387c5fc78a5cf4482afb",
-    "test/unit/data-package/collection.spec.js": "7f3e2b860ce7b120a85387c4acc1d385aa9ab012109ce2512e1e2028a4b47cec",
+    "test/unit/data-package/collection.spec.js": "a34f9e16e901e7ee87c0a7a7d640f783ee7f6f724afe5e94dc7cd479ad9e90ae",
     "test/unit/data-package/model.spec.js": "3d8fae03af29f886864f234b2d8e4b563de26ac85187224db05f3358d952c3f4",
     "test/unit/destroy-listener-cleanup.spec.js": "ca02b521694c195bbdb3d4067808eb3bfb6593b63d11ae75d72e1febcbae40f4",
     "test/unit/dom-adapters.spec.js": "12450f4ad513ae9000c9db640d481b995db91bcbe2f66c42fc503b72d019f69a",
