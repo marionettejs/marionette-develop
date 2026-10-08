@@ -1,0 +1,37 @@
+examples/records/package-lock.json
+  s_c4bc6730547ecf::t_ee1f53e64d6b2b 43,51-53,58,60-63,65,67,69,73,99,900-902
+scripts/docs/headings.mjs
+  s_c4bc6730547ecf::t_58eedbc887b113 28-37,39
+scripts/docs/sections.mjs
+  s_c4bc6730547ecf::t_23e25af068ae16 2,5-6
+scripts/performance/browser.mjs
+  s_c4bc6730547ecf::t_c65da488f6ad0f 167
+skills/marionette/scripts/symbols.mjs
+  s_c4bc6730547ecf::t_8c0ab39a66b420 36
+test/agent-docs/symbols.test.mjs
+  s_c4bc6730547ecf::t_486aef96f8b5b1 117-131
+test/browser/fixtures.mjs
+  s_c4bc6730547ecf::t_676d1df415f640 71
+test/docs/build.test.mjs
+  s_c4bc6730547ecf::t_7efed4777b4cb8 8-9,63-70
+test/docs/repository-entrypoints.test.mjs
+  s_c4bc6730547ecf::t_b38e0ee38069d7 6,31
+test/performance/browser-performance.test.mjs
+  s_c4bc6730547ecf::t_015d3be4f82cae 9,80-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "45fce003be05d6c479afe229bafe1c27bb51d774",
+  "prompts": {},
+  "sessions": {
+    "s_c4bc6730547ecf": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1173c-535e-7761-afb0-f2bfe958d8fb",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
