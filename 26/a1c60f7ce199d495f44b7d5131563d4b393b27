@@ -1,0 +1,36 @@
+.github/ISSUE_TEMPLATE/v5-task.yml
+  h_0f06c286dda36f 8
+AGENTS.md
+  h_0f06c286dda36f 16
+CONTRIBUTING.md
+  h_0f06c286dda36f 7
+REPOSITORY_CUTOVER.md
+  h_0f06c286dda36f 1-145
+benchmarks/agent/README.md
+  h_0f06c286dda36f 11-12,58,63-64
+benchmarks/agent/tasks/composed-lifecycle-repair/README.md
+  h_0f06c286dda36f 3,66
+benchmarks/docs/README.md
+  h_0f06c286dda36f 6
+changelog.md
+  h_0f06c286dda36f 1-7,45,328
+docs/guides/framework-migration.md
+  h_0f06c286dda36f 9
+evidence/repository-relocation.json
+  h_0f06c286dda36f 1-52
+evidence/terminology-audit.md
+  h_0f06c286dda36f 21
+scripts/api-contracts/README.md
+  h_0f06c286dda36f 93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "26a1c60f7ce199d495f44b7d5131563d4b393b27",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
