@@ -1,0 +1,16 @@
+ROADMAP.md
+  h_0f06c286dda36f 196-203,207,228-229,670-672,708-710,714-715,919-921,958-962,966-967,978-985,1004-1007
+benchmarks/agent/evaluation-plan.md
+  h_0f06c286dda36f 3-14,32,46,56-58,120,127-128,134-140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "572652bcd0a9ac4b53e3409c2c036a21a72a5bf4",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

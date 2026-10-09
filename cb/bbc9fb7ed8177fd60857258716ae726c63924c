@@ -1,0 +1,18 @@
+config/api-contracts/inventory.json
+  h_0f06c286dda36f 12526
+docs/guides/migration.md
+  h_0f06c286dda36f 87
+test/unit/data-package/collection.spec.js
+  h_0f06c286dda36f 80-83,90-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cbbbc9fb7ed8177fd60857258716ae726c63924c",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

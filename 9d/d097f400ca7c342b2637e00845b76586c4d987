@@ -1,0 +1,16 @@
+docs/guides/framework-migration.md
+  h_0f06c286dda36f 50,53-58,60-66,69-75,92-95,105,119-121,230-237,241-244,281-287,309
+test/docs/framework-migration-checks.mjs
+  h_0f06c286dda36f 23-27,50,57,63-64,80-93,97-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9dd097f400ca7c342b2637e00845b76586c4d987",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

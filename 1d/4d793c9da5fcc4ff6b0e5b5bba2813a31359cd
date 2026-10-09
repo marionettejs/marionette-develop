@@ -1,0 +1,16 @@
+config/api-contracts/inventory.json
+  h_0f06c286dda36f 12490
+docs/api/view.md
+  h_0f06c286dda36f 126,137
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1d4d793c9da5fcc4ff6b0e5b5bba2813a31359cd",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

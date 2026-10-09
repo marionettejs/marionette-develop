@@ -1,0 +1,27 @@
+benchmarks/agent/evaluation-plan.md
+  h_0f06c286dda36f 3-14,32,46,56-58,120,127-128,134-140
+ROADMAP.md
+  s_267e7a791356aa::t_8ae274ca88ec12 11-13
+  h_0f06c286dda36f 3,198-205,209,230-231,672-674,710-712,716-717,921-923,960-964,968-969,980-987,1006-1012
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "284a385864c25d0ba690e7ae0c4ede9a3dc93bbc",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  },
+  "sessions": {
+    "s_267e7a791356aa": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08689-8981-7cf3-a3c5-0ee0a88b599c",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
