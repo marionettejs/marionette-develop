@@ -1,0 +1,21 @@
+test/docs/records-excerpts.test.mjs
+  s_c4bc6730547ecf::t_e56c6c4c59c306 1-26
+docs/records.md
+  s_c4bc6730547ecf::t_78305bdc877485 3,23-38,41-74,83-109,114-135,138-191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cdf63716ee1f9b2ca284bef95b0e87a6912e9835",
+  "prompts": {},
+  "sessions": {
+    "s_c4bc6730547ecf": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1173c-535e-7761-afb0-f2bfe958d8fb",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

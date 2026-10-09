@@ -1,0 +1,22 @@
+context7.json
+  h_0f06c286dda36f 6,23,29
+docs/agents.md
+  h_0f06c286dda36f 7-12,21-26
+docs/readme.md
+  h_0f06c286dda36f 5-10
+llms.txt
+  h_0f06c286dda36f 3
+readme.md
+  h_0f06c286dda36f 15-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d1f84a3181c8bd95ace17dd4f55e191fab930f7b",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
