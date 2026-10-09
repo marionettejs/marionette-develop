@@ -1,0 +1,30 @@
+.github/ISSUE_TEMPLATE/v5-task.yml
+  h_0f06c286dda36f 8
+.github/workflows/docs-sync.yml
+  h_0f06c286dda36f 21
+AGENTS.md
+  h_0f06c286dda36f 16-18
+CONTRIBUTING.md
+  h_0f06c286dda36f 6-8
+changelog.md
+  h_0f06c286dda36f 5
+docs/guides/framework-migration.md
+  h_0f06c286dda36f 9
+evidence/repository-cutover-2026-10-09.md
+  h_0f06c286dda36f 1,5-11,19,31-35,37-44,46-48,108-110,122,126,128-131,133-142,144-145,150,173,177-178,185,190-198
+evidence/terminology-audit.md
+  h_0f06c286dda36f 21
+scripts/api-contracts/README.md
+  h_0f06c286dda36f 92-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c73d173ce58b9734fcf9feccc74ac325610e9b5d",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
