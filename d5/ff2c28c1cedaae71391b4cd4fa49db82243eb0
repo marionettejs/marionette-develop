@@ -1,0 +1,14 @@
+changelog.md
+  h_0f06c286dda36f 5-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d5ff2c28c1cedaae71391b4cd4fa49db82243eb0",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
