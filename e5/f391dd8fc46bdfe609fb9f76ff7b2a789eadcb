@@ -1,0 +1,40 @@
+llms.txt
+  h_0f06c286dda36f 3
+docs/readme.md
+  s_930f3c9a37745c::t_e8338f640ba8c5 3-4
+  h_0f06c286dda36f 5-6
+context7.json
+  h_0f06c286dda36f 6,28
+  h_0f06c286dda36f 23
+readme.md
+  h_0f06c286dda36f 15-21
+docs/agents.md
+  s_930f3c9a37745c::t_3b1e022225f894 26
+  s_930f3c9a37745c::t_74e94cba9e7ca7 27-30
+  h_0f06c286dda36f 7-8,10-13,20-22,32-34
+  s_930f3c9a37745c::t_819852cbee9e76 31
+  s_930f3c9a37745c::t_1ec37969d736ef 23-25
+  s_930f3c9a37745c::t_66e72cfd409a2a 14
+  h_0f06c286dda36f 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e5f391dd8fc46bdfe609fb9f76ff7b2a789eadcb",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  },
+  "sessions": {
+    "s_930f3c9a37745c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0e76a-023f-7740-a6fe-9b6e8dfa8ece",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
