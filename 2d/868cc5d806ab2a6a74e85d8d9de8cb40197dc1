@@ -1,0 +1,21 @@
+docs/guides/migration.md
+  s_c4bc6730547ecf::t_edf6a8667b2adc 5-11
+readme.md
+  s_c4bc6730547ecf::t_139cd674afe159 16-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2d868cc5d806ab2a6a74e85d8d9de8cb40197dc1",
+  "prompts": {},
+  "sessions": {
+    "s_c4bc6730547ecf": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1173c-535e-7761-afb0-f2bfe958d8fb",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

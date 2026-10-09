@@ -1,0 +1,19 @@
+test/docs/consumer-tooling.mjs
+  s_db96bfd562e883::t_a20710b2338dee 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5e27dcd95fb4d9a1fb713a36aeb282c88bf8fae9",
+  "prompts": {},
+  "sessions": {
+    "s_db96bfd562e883": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a10827-3974-76f1-9d77-eb2cd43c9959",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

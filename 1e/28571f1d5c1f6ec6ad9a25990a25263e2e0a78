@@ -1,0 +1,89 @@
+docs/guides/testing.md
+  h_0f06c286dda36f 5
+packages/adapters/package.json
+  h_0f06c286dda36f 74
+packages/utils/package.json
+  h_0f06c286dda36f 33
+.github/workflows/docs-pages.yml
+  h_0f06c286dda36f 52-64,71-110
+readme.md
+  h_0f06c286dda36f 38
+docs/quick-start.md
+  h_0f06c286dda36f 3
+package-lock.json
+  h_0f06c286dda36f 60,8729,8737
+packages/data/package.json
+  h_0f06c286dda36f 33
+test/docs/reference-examples.mjs
+  s_930f3c9a37745c::t_4e9514ad8967ef 30,475,527
+package.json
+  h_0f06c286dda36f 8
+test/docs/installed-package.mjs
+  h_0f06c286dda36f 4,7,12,14,24,28-36,43,55-63,130
+CONTRIBUTING.md
+  h_0f06c286dda36f 26-35
+  s_060efbb5bf6218::t_0f3457924e3770 45-47
+config/release-profile.json
+  h_0f06c286dda36f 9
+test/README.md
+  h_0f06c286dda36f 28-37
+scripts/checks/release-profile.mjs
+  s_d6429951fb9231::t_3aabcce3aca49a 76-80
+  s_d6429951fb9231::t_bc63de0e7b81b0 81
+  h_0f06c286dda36f 4
+config/performance.json
+  s_a9364033cda2fa::t_ecb1fa5a80b9d6 11
+docs/records.md
+  h_0f06c286dda36f 9
+packages/radio/package.json
+  h_0f06c286dda36f 33
+skills/marionette/scripts/symbols.mjs
+  h_0f06c286dda36f 36-37
+test/tooling/release-profile.test.mjs
+  h_0f06c286dda36f 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1e28571f1d5c1f6ec6ad9a25990a25263e2e0a78",
+  "prompts": {},
+  "humans": {
+    "h_0f06c286dda36f": {
+      "author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  },
+  "sessions": {
+    "s_060efbb5bf6218": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06dd0-1698-7ac3-bd53-4ac200650411",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    },
+    "s_930f3c9a37745c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0e76a-023f-7740-a6fe-9b6e8dfa8ece",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    },
+    "s_a9364033cda2fa": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a081e2-41fe-75a2-b8c5-23d9246d92b8",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    },
+    "s_d6429951fb9231": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a03eb3-6aa8-7fe0-91bd-98039115289c",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}

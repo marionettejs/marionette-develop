@@ -1,0 +1,41 @@
+test/agent-docs/lookup.test.mjs
+  s_c4bc6730547ecf::t_c33a6df0e939eb 476-487,490,495,497-498,501
+  s_c4bc6730547ecf::t_8234703216cb48 496
+  s_c4bc6730547ecf::t_768a7e1a0de731 499-500
+  s_c4bc6730547ecf::t_6033004cc1a1ff 491-494
+  s_c4bc6730547ecf::t_64c33448d52119 488-489
+scripts/docs/agent-routes.mjs
+  s_c4bc6730547ecf::t_d38bc99ead6428 1-2
+plugins/marionette/.claude-plugin/plugin.json
+  s_c4bc6730547ecf::t_c930e33a1be82b 3
+docs/guides/migration.md
+  s_c4bc6730547ecf::t_052ddce0fd8e63 22-55
+skills/marionette/scripts/docs.mjs
+  s_c4bc6730547ecf::t_52d676a78273c2 16,24,27-37
+plugins/marionette/plugin.json
+  s_c4bc6730547ecf::t_80b326468d5a1c 4
+plugins/marionette/skills/marionette/scripts/locate.mjs
+  s_c4bc6730547ecf::t_010bd0c0d4927e 2-3,5,8-23,27-31,33-38,40-46,48-51,53
+plugins/marionette/skills/marionette/SKILL.md
+  s_c4bc6730547ecf::t_8ec40c87e0f412 3,8-31
+test/agent-docs/plugin.test.mjs
+  s_c4bc6730547ecf::t_1bdcc75a982f75 33,45,74,99-141
+docs/tooling.md
+  s_c4bc6730547ecf::t_147d4f0de9f293 119,121,123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "87724fac1574a96744e0809462bd3922e0c45498",
+  "prompts": {},
+  "sessions": {
+    "s_c4bc6730547ecf": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1173c-535e-7761-afb0-f2bfe958d8fb",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Paul Falgout <paul.falgout@roundingwell.com>"
+    }
+  }
+}
