@@ -1,6 +1,6 @@
 {
   "$schema": "https://context7.com/schema/context7.json",
-  "url": "https://context7.com/marionettejs/marionette",
+  "url": "https://context7.com/marionettejs/marionette-develop",
   "public_key": "pk_dDwor65yx2DOyaFDDOmVU",
   "projectTitle": "Marionette JavaScript — v5",
   "description": "Marionette v5 (npm: marionette) provides Views, Regions, CollectionViews and Applications. Core requires neither Backbone nor jQuery; optional adapters integrate Backbone Models and Collections.",
