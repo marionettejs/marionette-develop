@@ -1,3 +1,16 @@
+> **Archived development repository.** Current source, documentation, releases,
+> issues and pull requests are in [marionettejs/marionette](https://github.com/marionettejs/marionette).
+> [Marionette 5.0.0](https://github.com/marionettejs/marionette/releases/tag/v5.0.0)
+> is published. The RC2 instructions below are retained as historical documentation.
+>
+> This repository preserves v5 development issues, pull requests and prerelease
+> history. Pre-cutover v5 issue/PR numbers and bare `#N` references in old commits
+> belong to `marionettejs/marionette-develop`; the canonical repository has its own
+> numbering and legacy history. Old commits, tags and evidence remain unchanged.
+> Unfinished work continues in [Idiomorph adapter #3750](https://github.com/marionettejs/marionette/issues/3750)
+> (formerly #606) and [independent maintenance evaluation #3751](https://github.com/marionettejs/marionette/issues/3751)
+> (formerly #146). Their old issue URLs redirect to the transferred discussions.
+
 <h1 align="center">Marionette.js</h1>
 <p align="center">
   <img title="Marionette" alt="Marionette logo" src="https://github.com/marionettejs/marionette/raw/master/marionette-mark.svg" width="140" height="145" />
